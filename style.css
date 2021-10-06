@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: white;
+}
+
+html{
+    height: 100%;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Bebas Neue', cursive;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.forside{
+    width: 50%;
+    margin-right: auto;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    background-image: url(/img/p_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ikkeforside {
+    width: 50%;
+    margin-right: auto;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    background-image: url(/img/photo-1553356084-58ef4a67b2a7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+
+
+/* Menu */
+
+.simple {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 90px;
+}
+.menu-links {
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.simple a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    letter-spacing: 1px; 
+    font-size: 25px;
+}
+
+.simple a:hover {
+    color: rgb(223, 223, 223);
+}
+
+.logo {
+    width: 200px;
+    height: 76px;
+    margin-left: 40px;
+
+}
+
+
+  /* SOCIALS PÅ FORSIDE */
+
+  .socials {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    padding-top: 1100px;
+    text-align: right;
+    padding-left: 500px;
+    padding-bottom: 200px;
+}
+  
+
+
+/* ESPORT */
+
+.esportwork {
+    display: flex;
+    width: 1500px;
+    padding-top: 120px;
+    padding-left: 80px;
+    padding-right: 40px;    
+}
+
+.nativz {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.nativz:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.leagues {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.leagues:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.tricked {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.tricked:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.masonic {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.masonic:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.flong {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.flong:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.misc {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.misc:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+/* FORM */
+
+.form {
+    display: flex;
+    width: 1150px;
+    padding-top: 200px;
+}
+
+.form h1 {
+    padding-left: 300px;
+}
+
+.form label {
+    font-family: 'Raleway', sans-serif;
+}
+
+.form option, input, button, textarea {
+    color: black;
+}
+
+/* ABOUT ME */
+
+.indhold {
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+    position: relative;
+
+}
+
+.indhold img {
+    position: absolute;
+    left: 700px;
+    
+}
+
+.indhold h1 {
+    font-size: 100px;
+    text-align: left;
+    position: absolute;
+    padding-left: 600px;
+
+}
+
+.indhold p {
+    padding-top: 150px;
+    padding-left: 300px;
+}
+
+/* PHOTO */
+
+.soon {
+    font-size: 90px;
+    padding-left: 450px;
+    padding-top: 300px;
+    letter-spacing: 2px;
+
+}
+
+.socials2 {
+    text-align: right;
+    padding-top: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.socials2 a {
+    text-decoration: none;
+    margin-top: 10px;
+}
+
